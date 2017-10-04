@@ -46,7 +46,8 @@ Level 2 - Visualizing your Data
 
   Bonus question: What is the difference between a timeboard and a screenboard?
 
-
+	Timeboard allows automatically collect time-syncronized metrics and event. Screenboard does not need to sync time. It enables layout whatever you like.
+		
   Take a snapshot of your test.support.random graph and draw a box around a section that shows it going above 0.90. Make sure this snapshot is sent to your email by using the @notification
 
 ![ScreenShot](https://user-images.githubusercontent.com/32184362/31057341-3c15c0c8-a71c-11e7-93a8-0635a5317124.png)
@@ -92,12 +93,12 @@ Level 3 - Alerting on your Data
 ![ScreenShot](https://user-images.githubusercontent.com/32184362/31057343-423d5baa-a71c-11e7-89a6-02eb09066f50.png)
 
 	The e-mail notification received from Datadog Alerting.
-![ScreenShot](https://user-images.githubusercontent.com/32184362/31057342-3f0898e6-a71c-11e7-8a9c-4f0966bddbaf.png)
   
   Bonus points: Make it a multi-alert by host so that you won't have to recreate it if your infrastructure scales up.
 	Setting a multi-alert on edit monitor view.
 	
-		Timeboard allows automatically collect time-syncronized metrics and event. Screenboard does not need to sync time. It enables layout whatever you like.
+![ScreenShot](https://user-images.githubusercontent.com/32184362/31057342-3f0898e6-a71c-11e7-8a9c-4f0966bddbaf.png)
+	
 	
 ![ScreenShot](https://user-images.githubusercontent.com/32184362/31057558-af94995e-a71f-11e7-8540-edf45d9a92d4.png)
 
@@ -115,4 +116,5 @@ Bonus: Since this monitor is going to alert pretty often, you don't want to be a
 	Screenshot of downtime schedule.
 ![ScreenShot](https://user-images.githubusercontent.com/32184362/31057753-bee0be08-a722-11e7-8b7a-76bb88c2ce43.png)
 		
-	Waiting for e-mail to receive
+	e-mail from Datadog.
+![ScreenShot](https://user-images.githubusercontent.com/32184362/31155913-a01192b0-a8ec-11e7-8a50-471cdf747ed6.png)
